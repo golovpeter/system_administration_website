@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global.css">
     <title>Курсовой проект</title>
 </head>
 <body>
     <header class="header">
-
         <div class="dropdown">
             <button class="dropbtn">Программы</button>
             <div class="dropdown-content">
               <p style="font-weight: bold;">Linux. Инструменты мониторинга дисковой подсистемы</p>
-              <a href="#gparted">GParted</a>
-              <a href="#">Baobab</a>
-              <a href="#">QDirStat</a>
+              <a href="./disk_subsystem/gparted/gparted.html">GParted</a>
+              <a href="./disk_subsystem/baobab/baobab.html">Baobab</a>
+              <a href="./disk_subsystem/qdirstat/qdirstat.html">QDirStat</a>
               <p style="font-weight: bold;">Средства оперативного восстановления системы.</p>
               <a href="#">Timeshift</a>
               <a href="#">BootRepair</a>
@@ -28,7 +28,6 @@
             </div>
         </div>
 
-         
         <div class="about-me">
             <a href="">Обо мне</a>
         </div>
@@ -37,36 +36,22 @@
         </div>
     </header>
     
+    <div class="container-header" style="margin: 0px;">
+        <h1>Курсовой проект</h1>
+    </div>
     <div class="container-header">
-        <h1>Linux. Инструменты мониторинга дисковой подсистемы</h1>
+        <h1>По дисциплине "Системное администрирование"</h1>
     </div>
-    
-    <div class = "container-header">
-        <a href="https://gparted.org/" class="container-header" style="text-decoration:underline; color: blue;"><h2 name="gparted">1. GParted</h2></a>
+    <div class="container-header">
+        <h2>Разделы проекта:</h2>
     </div>
 
     <div class="container-header">
-        <img src="gparted.png" width="500px" height="360px">
+        <ol>
+            <h2><li><a href="./disk_subsystem/disk_subsystem.html">Linux. Инструменты мониторинга дисковой подсистемы</a></li></h2>
+            <h2><li><a href="./">Средства оперативного восстановления системы</a></li></h2>
+            <h2><li><a href="./">Архивация данных и работа сархивами</a></li></h2>
+        </ol>
     </div>
-
-    <div class="container">
-        <div class="column">
-            <p style="font-family: Arial, Helvetica, sans-serif">GParted (GNOME Partition Editor) — редактор дисковых разделов, являющийся графической оболочкой к GNU Parted. 
-                Предназначен для различных операций с разделами (и файловыми системами, находящимися на них), таких как: 
-                создание, уничтожение, изменение размера, перемещение, проверка и копирование. 
-                Это необходимо при создании пространства для новых операционных систем, реорганизации использования диска, 
-                копировании данных, находящихся на жёстких дисках, и зеркалировании одного раздела на другой (создании образа диска). 
-                Также существует Live CD версия программы
-                 — GParted-Live, выпускаемая командой разработчиков GParted с каждой новой версией этой программы.</p>
-        </div>
-        <div class="column">
-            <p style="font-family: Arial, Helvetica, sans-serif;">GParted использует libparted для обнаружения и управления устройствами и таблицами разделов, в то время, как несколько инструментов файловой системы обеспечивают поддержку файловых систем, не включенных в libparted. 
-                Эти дополнительные пакеты будут обнаружены во время выполнения и не требуют восстановления GParted.
-                GParted написан на C++ и использует библиотеку gtkmm для создания интерфейса. 
-                Основным принципом создания интерфейса являлось сохранение простого в использовании GUI, насколько это возможно, а также согласованным в соответствии с HIG.
-                Проект GParted предоставляет операционную систему, которая включает в себя GParted, и которая может быть записана на Live CD, Live USB и другие носители. Операционная система основывается на Debian GNU/Linux. </p>
-        </div>
-    </div>
-
 </body>
 </html>
