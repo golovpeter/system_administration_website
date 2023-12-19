@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .header {
@@ -28,12 +29,6 @@ body {
 .container {
     text-align: center;
 }
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Courier New', Courier, monospace
-  }
   
 /* Кнопка выпадающего списка */
 .dropbtn {
@@ -68,4 +63,14 @@ body {
     font-size: large;
     margin-left: 30px;
     margin-right: 30px;
+}
+
+.theme-title {
+    margin-left: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-chapter {
+    font-size: large;
+    margin-right: 20%;
 }
