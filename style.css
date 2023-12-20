@@ -23,7 +23,6 @@ body {
 .container-header {
   display: flex;
   justify-content: center;
-  text-decoration: solid;
 }
 
 .column {
